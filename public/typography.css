@@ -1,0 +1,107 @@
+.title {
+	color: var(--denim-100);
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	/* identical to box height, or 112% */
+
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.body__large {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	/* identical to box height, or 150% */
+
+	text-align: center;
+
+	/* denim/denim-100 */
+
+	color: var(--denim-100);
+}
+
+.body__small {
+	position: static;
+	width: 72px;
+	height: 20px;
+	left: 0px;
+	top: 138px;
+
+	/* Body small */
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 143% */
+
+	text-align: center;
+
+	/* denim/denim-100 */
+
+	color: var(--denim-100);
+}
+
+.headline__uppercase {
+	position: static;
+	width: 151px;
+	height: 18px;
+	left: 0px;
+	top: 206px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height, or 129% */
+
+	text-transform: uppercase;
+
+	color: var(--denim-100);
+}
+
+.headline {
+	position: static;
+	width: 61px;
+	height: 16px;
+	left: 0px;
+	top: 272px;
+
+	/* Headline */
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	/* identical to box height, or 114% */
+
+	color: var(--denim-100);
+}
+
+label {
+	position: static;
+	width: 31px;
+	height: 16px;
+	left: 0px;
+	top: 336px;
+
+	/* Label */
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	/* identical to box height, or 133% */
+
+	color: var(--denim-200);
+}
