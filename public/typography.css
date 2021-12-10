@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 .title {
 	color: var(--denim-100);
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 18px;
 	/* identical to box height, or 112% */
@@ -12,7 +13,7 @@
 }
 
 .body__large {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -88,11 +89,6 @@
 }
 
 label {
-	position: static;
-	width: 31px;
-	height: 16px;
-	left: 0px;
-	top: 336px;
 
 	/* Label */
 
