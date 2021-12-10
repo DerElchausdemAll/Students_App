@@ -1,0 +1,12 @@
+@import url(/styles.css);
+.BuddyIcon {
+	stroke: var(--color-3-100);
+}
+
+.BuddyIcon:hover {
+	stroke: var(--color-4-200);
+}
+
+.BuddyIcon--inactive {
+	stroke: var(--color-2);
+}
