@@ -1,0 +1,11 @@
+@import url(./color-palette.css);
+:root {
+	--background: var(--background);
+	--headerbox: var(--headerbox);
+	--denimblue1: var(--denimblue1);
+	--denimblue2: var(--denimblue2);
+	--orange1: var(--orange1);
+	--orange2: var(--orange2);
+	--orange3: var(--orange3);
+	--orange4: var(--orange4);
+}
