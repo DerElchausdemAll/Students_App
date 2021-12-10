@@ -1,0 +1,18 @@
+@import url(./var.css);
+@import url(color-palette.css);
+
+body {
+	background: grey;
+}
+
+.nav-wrapper {
+	display: flex;
+	background: var(--white);
+	list-style: none;
+	flex-direction: column;
+}
+
+.nav__ul {
+	display: flex;
+	flex-direction: column;
+}
