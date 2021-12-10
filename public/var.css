@@ -1,11 +1,12 @@
 @import url(./color-palette.css);
-/* :root {
-	--background: var(--background);
-	--headerbox: var(--headerbox);
-	--denimblue1: var(--denimblue1);
-	--denimblue2: var(--denimblue2);
-	--orange1: var(--orange1);
-	--orange2: var(--orange2);
-	--orange3: var(--orange3);
-	--orange4: var(--orange4);
-} */
+
+:root {
+	--color-1: var(--medium-grey);
+	--color-2: var(--light-grey);
+	--color-3-100: var(--denim-100);
+	--color-3-200: var(--denim-200);
+	--color-4-100: var(--tangerine-100);
+	--color-4-200: var(--tangerine-200);
+	--color-4-300: var(--tangerine-300);
+	--color-4-400: var(--tangerine-400);
+}
