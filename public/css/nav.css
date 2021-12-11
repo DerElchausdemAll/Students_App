@@ -1,18 +1,58 @@
 @import url(./var.css);
-@import url(color-palette.css);
+@import url(./color-palette.css);
+@import url(/border_shadow_vars.css);
 
-body {
-	background: grey;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
 }
 
-.nav-wrapper {
+.test {
 	display: flex;
-	background: var(--white);
-	list-style: none;
-	flex-direction: column;
+	background: grey;
+	justify-content: center;
+	align-items: center;
+
 }
+
+.nav__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 375px;
+	height: 856px;
+
+
+
+}
+
+
 
 .nav__ul {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	list-style: none;
+	background: var(--white);
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 0px 2px 11px rgba(25, 50, 81, 0.203238);
+	border-radius: 10px;
+	margin-top: 100vh;
+	margin-bottom: 20px;
+	padding-left: 0;
+	bottom: 0;
+	width: 335px;
+	height: 44px;
+	position: absolute;
+}
+
+@media (max-width:340px) {
+	.nav__ul {
+	
+		width:240px;
+		height: 35px;
+	
 }
