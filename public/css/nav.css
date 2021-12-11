@@ -14,7 +14,6 @@
 	background: grey;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .nav__wrapper {
@@ -24,12 +23,7 @@
 	align-items: center;
 	width: 375px;
 	height: 856px;
-
-
-
 }
-
-
 
 .nav__ul {
 	display: flex;
@@ -49,10 +43,9 @@
 	position: absolute;
 }
 
-@media (max-width:340px) {
+@media (max-width: 340px) {
 	.nav__ul {
-	
-		width:240px;
+		width: 240px;
 		height: 35px;
-	
+	}
 }
