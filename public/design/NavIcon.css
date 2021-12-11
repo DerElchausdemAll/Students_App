@@ -1,0 +1,76 @@
+@import url(/styles.css);
+
+.Container {
+	width: 90vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.NavIcon {
+	width: 24px;
+	height: 24px;
+	transform: scale(1);
+	fill: var(--color-3-100);
+}
+
+.NavIcon:hover {
+	width: 24px;
+	height: 24px;
+	transform: scale(1.05);
+	fill: var(--color-4-200);
+}
+
+.NavIcon:active {
+	width: 24px;
+	height: 24px;
+	transform: scale(0.95);
+	fill: var(--color-4-100);
+	box-shadow: 0 0 1px 0.1 black inset;
+}
+
+.NavIcon--in-active {
+	width: 24px;
+	height: 24px;
+	fill: var(--color-3-200);
+}
+
+.NavIcon--in-active:hover {
+	width: 24px;
+	height: 24px;
+	transform: scale(1.05);
+	fill: var(--color-4-200);
+}
+
+.NavIcon--in-active:active {
+	width: 24px;
+	height: 24px;
+	transform: scale(0.95);
+	fill: var(--color-4-100);
+	box-shadow: 0 0 1px 0.1 black inset;
+}
+
+#TeamIcon--active {
+	width: 30px;
+	height: 30px;
+}
+#TeamIcon--in-active {
+	width: 30px;
+	height: 30px;
+}
+#TeamIcon--active:hover {
+	width: 30px;
+	height: 30px;
+}
+#TeamIcon--in-active:hover {
+	width: 30px;
+	height: 30px;
+}
+#TeamIcon--active:active {
+	width: 30px;
+	height: 30px;
+}
+#TeamIcon--in-active:active {
+	width: 30px;
+	height: 30px;
+}
