@@ -1,6 +1,7 @@
 @import url(./var.css);
 @import url(./color-palette.css);
 @import url(/border_shadow_vars.css);
+@import url(/design/NavIcon.css);
 
 *,
 *::before,
