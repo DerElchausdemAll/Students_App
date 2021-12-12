@@ -12,7 +12,7 @@
 
 .test {
 	display: flex;
-	background: grey;
+	background: white;
 	justify-content: center;
 	align-items: center;
 }
@@ -31,13 +31,14 @@
 	flex-direction: row;
 	list-style: none;
 	background: var(--white);
-	justify-content: space-evenly;
+	justify-content: space-between; /* changed from space-evenly */
 	align-items: center;
 	box-shadow: 0px 2px 11px rgba(25, 50, 81, 0.203238);
 	border-radius: 10px;
 	margin-top: 100vh;
 	margin-bottom: 20px;
-	padding-left: 0;
+	padding-left: 28px; /* added padding left & right */
+	padding-right: 29px;
 	bottom: 0;
 	width: 335px;
 	height: 44px;
@@ -48,5 +49,8 @@
 	.nav__ul {
 		width: 240px;
 		height: 35px;
+		justify-content: space-evenly; /* re-set to space-evenly & removed padding for smaller displays */
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
