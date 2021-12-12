@@ -1,0 +1,31 @@
+@import url(/css/styles.css);
+/** 
+Minimal reset
+*/
+
+body {
+	margin: 0;
+	padding-top: 200px;
+	box-sizing: border-box;
+	background-color: var(--white);
+}
+
+.CompGraph {
+	margin-left: 50px;
+	margin-top: 8px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.CompGraph__rect {
+	display: flex;
+	width: 22px;
+	height: 22px;
+	margin-right: 6px;
+	border-radius: 4px;
+	border: none;
+	background-color: var(--color-1);
+}
+.CompGraph__rect--active {
+	background-color: var(--color-3-100);
+}
