@@ -1,0 +1,24 @@
+@import url(/styles.css);
+/** 
+Minimal reset
+*/
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.CompGraph__wrapper {
+	display: flex;
+	justify-content: flex-start;
+	margin-right: 6px;
+}
+
+.CompGraph__rect {
+	width: 22px;
+	height: 22px;
+	border-radius: 4px;
+	border: none;
+	background-color: var(--color-3-100);
+}

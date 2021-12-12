@@ -1,5 +1,10 @@
 @import url(/var.css);
 @import url(/border_shadow_vars.css);
+@import url(/nav.css);
+@import url(/typography.css);
+@import url(/design/NavIcon.css);
+@import url(/design/CompGraph.css);
+
 /**
  * Minimal Reset
  */
