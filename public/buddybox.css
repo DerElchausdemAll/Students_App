@@ -24,3 +24,22 @@
 	font-size: 16px;
 	line-height: 24px;
 }
+
+.yourcodebuddyfortoday {
+	width: 189px;
+	height: 16px;
+	top: 91px;
+	left: 30px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	/* identical to box height, or 150% */
+
+	text-align: center;
+
+	/* denim/denim-100 */
+
+	color: var(--denim-100);
+}
