@@ -1,0 +1,26 @@
+.buddyboxwrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.buddyboxwrapper__buddybox {
+	background-color: white;
+	width: 315px;
+	height: 58px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--color-1);
+	border-radius: 1px;
+
+	color: var(--denim-200);
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+}
